@@ -2,7 +2,7 @@
 
 def speak_to_grandma(x)
   if x=="I LOVE YOU GRANDMA!"
-      return "I LOVE YOU TOO PUMPKIN! !"
+      return "I LOVE YOU TOO PUMPKIN!"
       elsif x=="WHAT"||x=="WHAT DID YOU EAT TODAY?"
         return "NO, NOT SINCE 1983!"
         elsif x=="Hi,Nana, how are you?"||x=="Hi!"
