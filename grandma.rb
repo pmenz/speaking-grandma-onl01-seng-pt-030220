@@ -1,18 +1,18 @@
 # Write a speak_to_grandma method.
 
 def speak_to_grandma(x)
-      if !(x==x.upcase)
-      return "HUH?! SPEAK UP, SONNY!"
-      elsif x== "I LOVE YOU GRANDMA!"
-        puts "I LOVE YOU TOO PUMPKIN!"
-      elsif x== "Hi,Nana, how are you?" || X== "Hi!"
-        puts "HUH?! SPEAK UP, SONNY!"
-      else x=="WHAT" || X== 'WHAT DID YOU EAT TODAY?'
-        puts "NO, NOT SINCE 1938!"
-      elsif x==x.upcase
-        return "NO, NOT SINCE 1938!"
+  if x=="I LOVE YOU GRANDMA!"
+      return "I LOVE YOU TOO PUMPKIN"
+      elsif x=="WHAT"||x=="WHAT DID YOU EAT TODAY?"
+        return "NO, NOT SINCE 1983!"
+        elsif x=="Hi,Nana, how are you?"||x=="Hi!"
+          return "HUH?! SPEAK UP, SONNY!"
+        elsif !x.==x.upcase
+          return "HUH?! SPEAK UP, SONNY!"
+        else
+          return "NO, NOT SINCE 1983!"
         end
-end
+      end
 
   
 #	1. The method should take in a string argument containing a phrase and check to see if the phrase is written in all uppercase: if it isn't, then grandma #can't hear you. She should then respond with (return) `HUH?! SPEAK UP, SONNY!`.
